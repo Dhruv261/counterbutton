@@ -6,14 +6,14 @@ const getNumber = () => {
 };
 
 
-function increment() {
+const increment = () => {
     getNumber();
     let value = parseInt(countValue.innerText);
     value = value + 1;
     countValue.innerText = value;
 }
 
-function decrement() {
+const decrement = () => {
     let value = parseInt(countValue.innerText);
     value = value - 1;
     countValue.innerText = value;
