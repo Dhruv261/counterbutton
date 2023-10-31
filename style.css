@@ -1,4 +1,4 @@
-.bg{
+.bg {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -8,35 +8,33 @@
     flex-direction: column;
     gap: 80px;
 }
-.text-above{
-    font-family: "poppins",sans-serif;
-    color:#0398d4;
+.text-above {
+    font-family: "poppins", sans-serif;
+    color: #0398d4;
     font-size: 30px;
 }
-button{
+button {
     border-style: none;
-    background-color:white;
-    font-size:25px;
+    background-color: white;
+    font-size: 25px;
     color: rgb(77, 77, 77);
 }
 
-.counter{
+.counter {
     display: flex;
     padding: 18px 25px;
     gap: 15px;
     background-color: white;
     font-size: 25px;
-    border-radius:0.2rem;
+    border-radius: 0.2rem;
 }
-.countmid{
+.countmid {
     padding-left: 50px;
     padding-right: 50px;
-    border-right:  2px solid black;
+    border-right: 2px solid black;
     border-left: 2px solid #000;
-    color:rgb(77, 77, 77);
+    color: rgb(77, 77, 77);
     font-weight: bold;
     font-size: 30px;
     font-family: "poppins", sans-serif;
-
 }
-
